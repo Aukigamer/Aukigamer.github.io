@@ -1,50 +1,103 @@
-<html>
-    <head>
-        <title>AUKIPRO</title>
-        <style>
-        body { 
-            font-size:19px;
-    background-color:rgb(89, 177, 235);
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Clásico: Real Madrid vs Barcelona</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
         }
-            .texto{
-                 font-family: sans-serif;
-            font-size: 15px;
-            line-height: 1.5em;
+        header {
+            background: linear-gradient(to right, #00529f, #a50044);
+            color: white;
+            padding: 20px;
             text-align: center;
-            }
-            .titulo{
-                font-family:Arial;
-                text-align: center;
-                
-            }
-            
-            #post1{ color:rgb(0, 0, 255);
-                font-family:Arial;
-                text-align: center;}
-             #post2{  color:rgb(255, 0, 0);
-                font-family:Arial;
-                text-align: center;}
-            .fecha{font-family:Arial;}
-        </style>
-    </head>
-    <body>
-        
-        <h1 class="titulo">Aukipro</h1>
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .hero {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        a {
+            color: #00529f;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>El Clásico</h1>
+        <p>Real Madrid vs FC Barcelona</p>
+    </header>
 
-        <h3 class="titulo">Contenidos</h3>
-        <ul>
-            <li><a href="#post1">Aukipro 1</a></li> 
-            <li><a href="#post2">Aukipro 2</a></li>
-        </ul>
-        
-        <h2 id="post1">Primera publicación</h2>
-         <h6 class="fecha">Publicado el 13 de noviembre 2024</h6>
-        <p class="texto">Hola, me llamo Auki Aukipro</p>
-        
-         <h2 id="post2">Segunda publicación</h2>
-        <h6 class="fecha">Publicado el 14 de noviembre 2024</h6>
-        
-        <p class="texto">Aukipro</p>
-        
-    </body>
+    <div class="container">
+        <!-- Imagen destacada -->
+        <div class="hero">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/ElClasicoLogo.jpg" alt="El Clásico">
+        </div>
+
+        <!-- Introducción -->
+        <div class="section">
+            <h2>Historia del Clásico</h2>
+            <p>El Clásico es uno de los encuentros más emocionantes del fútbol mundial, enfrentando a dos de los equipos más exitosos y populares: el Real Madrid y el FC Barcelona. Este duelo no solo representa una batalla futbolística, sino también una rivalidad histórica que trasciende el deporte.</p>
+        </div>
+
+        <!-- Próximo partido -->
+        <div class="section">
+            <h2>Próximo Partido</h2>
+            <p><strong>Fecha:</strong> 10 de diciembre de 2024<br>
+            <strong>Estadio:</strong> Santiago Bernabéu, Madrid<br>
+            <strong>Hora:</strong> 21:00 CET</p>
+            <p><a href="#">Comprar entradas aquí</a></p>
+        </div>
+
+        <!-- Estadísticas recientes -->
+        <div class="section">
+            <h2>Últimos Resultados</h2>
+            <ul>
+                <li>Barcelona 2-1 Real Madrid (24 de octubre de 2024)</li>
+                <li>Real Madrid 0-1 Barcelona (16 de marzo de 2024)</li>
+                <li>Barcelona 3-2 Real Madrid (10 de enero de 2024)</li>
+            </ul>
+        </div>
+
+        <!-- Jugadores clave -->
+        <div class="section">
+            <h2>Jugadores Clave</h2>
+            <p><strong>Real Madrid:</strong> Jude Bellingham, Vinícius Jr., Thibaut Courtois</p>
+            <p><strong>Barcelona:</strong> Robert Lewandowski, Gavi, Marc-André ter Stegen</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 El Clásico Fansite. Todos los derechos reservados.</p>
+    </footer>
+</body>
 </html>
